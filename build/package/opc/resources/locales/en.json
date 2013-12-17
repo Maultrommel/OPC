@@ -1,0 +1,38 @@
+{
+	"tabs": {
+		"authentification": {
+			"title": "Passcode Authentification"
+		},
+		"config": {
+			"title": "Settings",
+			"statistics": {
+				"title": "Locally stored",
+				"numberofitems": "Number of locally stored prayer items: {numberOfItems}",
+				"manualupdate": "Reload local prayer items",
+				"clearitems": "Clear local prayer items"
+			},
+			"reminder": {
+				"title": "Reminder"
+			},
+			"language": {
+				"title": "Change language",
+				"label": "App language:"
+			},
+			
+		}
+	},
+	"app": {
+		"title": "OMF Prayer Calendar"
+	},
+	"buttons": {
+		"next": "Next",
+		"pick-a-date": "Choose date",
+		"today": "today",
+		"done": "Done",
+		"cancel": "Cancel"
+	},
+	"misc": {
+		"day": "day",
+		"loadLocaleMsg": "Loading language"
+	}
+}

@@ -1,0 +1,81 @@
+2013-12-17 11:59:51.055 opc[11106:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-17 11:59:51.324 opc[11106:80b] Unlimited access to network resources
+2013-12-17 11:59:53.260 opc[11106:80b] CDVPlugin class applicationPreferences (pluginName: applicationpreferences) does not exist.
+2013-12-17 11:59:53.261 opc[11106:80b] [CDVTimer][applicationpreferences] 0.554979ms
+2013-12-17 11:59:53.261 opc[11106:80b] CDVPlugin class LocalNotification (pluginName: localnotification) does not exist.
+2013-12-17 11:59:53.262 opc[11106:80b] [CDVTimer][localnotification] 0.435948ms
+2013-12-17 11:59:53.262 opc[11106:80b] [CDVTimer][TotalPluginStartup] 1.751006ms
+2013-12-17 11:59:53.539 opc[11106:80b] Resetting plugins due to page load.
+2013-12-17 11:59:54.274 opc[11106:80b] Finished load of: file:///Users/app/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/0C93EB39-EDA5-4D97-9AC0-9F7DC959237E/opc.app/www/index.html
+2013-12-17 11:59:54.313 opc[11106:80b] CDVPlugin class applicationPreferences (pluginName: applicationPreferences) does not exist.
+2013-12-17 11:59:54.314 opc[11106:80b] ERROR: Plugin 'applicationPreferences' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-12-17 11:59:54.315 opc[11106:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "applicationPreferences928292506",
+  "applicationPreferences",
+  "getSetting",
+  [
+    {
+      "key" : "perform_updates"
+    }
+  ]
+]
+2013-12-17 11:59:54.315 opc[11106:80b] CDVPlugin class applicationPreferences (pluginName: applicationPreferences) does not exist.
+2013-12-17 11:59:54.315 opc[11106:80b] ERROR: Plugin 'applicationPreferences' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-12-17 11:59:54.316 opc[11106:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "applicationPreferences928292507",
+  "applicationPreferences",
+  "getSetting",
+  [
+    {
+      "key" : "prayer_country"
+    }
+  ]
+]
+2013-12-17 11:59:54.316 opc[11106:80b] CDVPlugin class applicationPreferences (pluginName: applicationPreferences) does not exist.
+2013-12-17 11:59:54.316 opc[11106:80b] ERROR: Plugin 'applicationPreferences' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-12-17 11:59:54.317 opc[11106:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "applicationPreferences928292508",
+  "applicationPreferences",
+  "getSetting",
+  [
+    {
+      "key" : "selectedtime3"
+    }
+  ]
+]
+2013-12-17 11:59:54.318 opc[11106:80b] CDVPlugin class applicationPreferences (pluginName: applicationPreferences) does not exist.
+2013-12-17 11:59:54.318 opc[11106:80b] ERROR: Plugin 'applicationPreferences' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-12-17 11:59:54.318 opc[11106:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "applicationPreferences928292509",
+  "applicationPreferences",
+  "getSetting",
+  [
+    {
+      "key" : "selectedtimeformated"
+    }
+  ]
+]
+2013-12-17 11:59:54.319 opc[11106:80b] CDVPlugin class applicationPreferences (pluginName: applicationPreferences) does not exist.
+2013-12-17 11:59:54.319 opc[11106:80b] ERROR: Plugin 'applicationPreferences' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-12-17 11:59:54.319 opc[11106:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "applicationPreferences928292510",
+  "applicationPreferences",
+  "getSetting",
+  [
+    {
+      "key" : "language_key"
+    }
+  ]
+]
+2013-12-17 11:59:54.320 opc[11106:80b] CDVPlugin class applicationPreferences (pluginName: applicationPreferences) does not exist.
+2013-12-17 11:59:54.320 opc[11106:80b] ERROR: Plugin 'applicationPreferences' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-12-17 11:59:54.320 opc[11106:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "applicationPreferences928292511",
+  "applicationPreferences",
+  "getSetting",
+  [
+    {
+      "key" : "reminder"
+    }
+  ]
+]
