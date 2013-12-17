@@ -1,0 +1,6 @@
+<project basedir=".">
+
+	<property name="framework.config.dir" value="${cmd.config.dir}"/>
+    
+    <import file="${framework.config.dir}/plugin.xml"/>
+</project>

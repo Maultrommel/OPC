@@ -1,0 +1,54 @@
+@mixin sortingmark($color: #000, $content: '2'){
+    @extend .x-sortingmark-base;
+    color: $color;
+    content: $content;
+}
+
+.x-sortingmark-base {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    //content: '}';
+    font-family: 'Pictos';
+    font-size: 1.6em;
+    text-align: right;
+    line-height: 1.6em;
+}
+
+.x-field-sortingdown .x-field-mask,
+.x-field-mask {
+    &::after {
+        @include sortingmark(#ddd,'}');
+    }
+}
+
+.x-field-sortingup .x-field-mask,
+.x-field-mask {
+    &::after {
+        @include sortingmark(#ddd,'{');
+    }
+}
+
+.x-input-sortingdown,
+.x-input-sortingup,
+.x-input-radio {
+    visibility: hidden;
+}
+
+.x-input-el:checked + .x-field-mask::after {
+    color: #006bb6;
+}
+
+.x-item-disabled {
+    &.x-field-sortingdown {
+        .x-input-sortingdown:checked + .x-field-mask::after {
+            color: mix(#ddd, #006bb6, 60);
+        }
+    }
+    &.x-field-sortingup {
+        .x-input-sortingdown:checked + .x-field-mask::after {
+            color: mix(#ddd, #006bb6, 60);
+        }
+    }
+}

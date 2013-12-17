@@ -1,0 +1,176 @@
+{
+	"tabs": {
+		"firstrun": {
+			"buttontitle": "Konfiguration",
+			"welcome": "Willkommen zur Beterkalender App der ÜMG. Bitte nehmen Sie sich einen Moment Zeit, um die App zu konfigurieren.",
+			"countrysettingstitle": "Land",
+			"countrysettingsinstruction": "Bitte wählen Sie das ÜMG Center aus, dessen Gebetskalender Sie gebrauchen möchten.",
+			"countrysettingsfailed": "Bitte wählen Sie ein Land aus, damit der passende Gebetskalender geladen werden kann!",
+			"countrysettingsloading": "Einstellungen werden geladen...",
+			"languagetitle": "Spracheinstellungen",
+			"language": "Bitte wählen Sie die Sprache für die App aus.",
+			"reminder": {
+				"title": "Erinnerung",
+				"instructions": "Die Erinnerung kann auch in den Einstellungen ein- oder ausgeschaltet werden.",
+				"description": "Die App bietet die Möglichkeit, sich jeden Tag erinnern zu lassen, für die ÜMG und ihre Missionare zu beten.",
+				"togglelabel": "Tägliche Erinnerung",
+				"timelabel": "Zeitpunkt:"
+			},
+			"automaticupdates": {
+				"title": "Automatische Aktualisierung",
+				"description": "Möchten Sie, dass die App gegen Ende Monat automatisch die neuen Gebetsanliegen für den kommenden Monat herunterlädt?",
+				"instructions": "Die automatische Aktualisierung kann auch in den Einstellungen ein- oder ausgeschaltet werden.",
+				"togglelabel": "Aktualisierung"
+			}
+		},
+		"authentification": {
+			"title": "Passcode für ",
+			"novalidpasscode": "Der in den Einstellungen gespeicherte Passcode ist nicht korrrekt.",
+			"description": "Damit nur unsere eigenen Beter diese App benutzen können, braucht es dafür einen Passcode. Den erhalten Sie beim ÜMG Büro ihres Landes.",
+			"nopasscodeentered": "Bitte geben Sie einen Passcode ein.",
+			"passcodefailed": "Falscher Passcode. Bitte versuchen Sie es erneut.",
+			"submitbutton": "Passcode eingeben",
+			"requestbutton": "Passcode per E-Mail anfordern",
+			"requestoverlay": {
+				"titlebar": "Passcode anfordern",
+				"title": "Kontaktdaten",
+				"instructions": "Bitte beachten Sie, dass es bis zu 24h dauern kann, bis wir antworten.",
+				"requestbutton": "Per E-Mail absenden"
+
+			}
+		},
+		"update": {
+			"updaterequiredtitle": "Aktualisierung notwendig",
+			"updaterequiredmessage": "Es sind neue Gebetsanliegen online verfügbar. Eine Aktualisierung wird aus dem Internet heruntergeladen.",
+			"successtitle": "Aktualisierung erfolgt",
+			"successmessage1": "Erfolgreich ",
+			"successmessage2": " neue Gebetsanliegen heruntergeladen und gespeichert.",
+			"nonewitemsmessage": "Aber es sind keine neueren Gebetsanliegen vorhanden. Die vorhandenen Gebetsanliegen sind aktuell.",
+			"needtobeonline": "Da Sie nicht online sind, konnten keine neuen Gebetsanliegen heruntergeladen werden. Bitte gehen Sie online und starten die App neu.",
+			"doingupdate": "Aktualisierung herunterladen...",
+			"doingsync": "Synchronisierung..."
+		},
+		"carousel": {
+			"notfoundtitle": "Kein Gebetsanliegen",
+			"notfoundmessage": "Leider gibt es kein Gebetsanliegen für diesen Tag.",
+			"icontitle": "Heute"
+		},
+		"info": {
+			"buttontitle": "Info",
+			"chooseCountryDescription": "Bitte wählen Sie ein ÜMG Zentrum aus, für welches Sie Informationen angezeigt haben möchten.",
+			"countryselectionlabel": "Land:"
+		},
+		"config": {
+			"buttontitle": "Einstellungen",
+			"title": "Einstellungen",
+			"statistics": {
+				"title": "Gespeicherte Gebetsanliegen",
+				"numberofitems": "Lokal gespeicherte Gebetsanliegen: {numberOfItems}<br />Vorhandene Monate: {monthsPresent}",
+				"manualupdate": "Aktualisieren",
+				"clearitems": "Löschen",
+				"confirmtitle": "Löschung bestätigen",
+				"confirmtext": "Sind Sie sicher, dass Sie alle auf dem Gerät gespeicherten Gebetsanliegen löschen möchten?",
+				"confirmbutton": "Ja, löschen!" 
+			},
+			"reminder": {
+				"title": "Erinnerung",
+				"allowreminderflag": "Erinnerung eingeschaltet: {allowReminderFlag}<br/>Zeit eingestellt auf: {reminderTimeDisplay}",
+				"changeremindersettings": "Erinnerungseinstellungen ändern",
+				"donebutton": "Zeit wählen",
+				"instructions": "Zeit anwählen, um sie zu ändern.",
+				"messagesettingreminder": "Startet Erinnerung...",
+				"confirmreminder": {
+					"title": "Neue Erinnerung",
+					"message1": "Möchten Sie jeden Tag um ",
+					"message2": " daran erinnert werden, für die ÜMG zu beten?"
+				}
+			},
+			"language": {
+				"title": "Sprache umstellen",
+				"label": "Sprache der App:"
+			},
+			"reset": {
+				"title": "App zurücksetzen",
+				"html": "Hier können Sie alle lokalen Daten löschen und die Gebets-App wieder in den Ursprungszustand zurücksetzen.",
+				"resetbutton": "Anwendung zurücksetzen.",
+				"confirmtitle": "Zurücksetzung bestätigen",
+				"confirmtext": "Sind Sie sicher, dass Sie alle auf dem Gerät gespeicherten Daten löschen möchten?",
+				"confirmbutton": "Ja, löschen!",
+				"successmessage": {
+					"title": "Erledigt!",
+					"message": "Erfolgreich alle gespeicherten Daten gelöscht."
+				} 
+			}
+
+		},
+		"list": {
+			"icontitle": "Liste",
+			"sorter": {
+				"choosesorting": "Sortierung:",
+				"sortingdate": "Datum",
+				"sortingcountry": "Land",
+				"sortingwork": "Mitarbeiter",
+				"chooserange": "Datum eingrenzen",
+				"closesorter": "Schliessen"
+			}
+		}
+	},
+	"app": {
+		"title": "ÜMG Gebetskalender",
+		"appupdatetitle": "App update",
+		"appuldatetext": "Diese App wurde auf die neueste Version aktualisert. Bitte starten Sie sie neu."
+	},
+	"buttons": {
+		"next": "Weiter",
+		"back": "Zurück",
+		"pick-a-date": "Datum auswählen",
+		"today": "Heute",
+		"done": "Auswählen",
+		"cancel": "Abbrechen",
+		"yesplease": "Ja, bitte",
+		"ok": "Ok",
+		"now": "Jetzt",
+		"restart": "App neu starten"
+		
+	},
+	"misc": {
+		"day": "Tag",
+		"centergermany": "ÜMG Deutschland",
+		"centerswitzerland": "ÜMG Schweiz",
+		"centeruk": "OMF United Kingdom",
+		"switzerland": "die Schweiz",
+		"germany": "Deutschland",
+		"uk": "die UK",
+		"loadLocaleMsg": "Sprache wird geladen",
+		"language": {
+			"de": "Deutsch",
+			"en": "Englisch"
+		},
+		"firstname": "Vorname",
+		"lastname": "Nachname",
+		"email": "E-Mail",
+		"days": {
+			"sunday": "Sonntag",
+			"monday": "Montag",
+			"tuesday": "Dienstag",
+			"wednesday": "Mittwoch",
+			"thursday": "Donnerstag",
+			"friday": "Freitag",
+			"saturday": "Samstag"
+		},
+		"months": {
+			"january": "Januar",
+			"february": "Februar",
+			"march": "März",
+			"april": "April",
+			"may": "Mai",
+			"june": "Juni",
+			"july": "Juli",
+			"august": "August",
+			"september": "September",
+			"october": "Oktober",
+			"november": "November",
+			"december": "Dezember"
+		}
+	}
+}

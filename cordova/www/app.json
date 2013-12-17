@@ -1,0 +1,1 @@
+{"id":"f3741b85-2659-43d8-85a7-69e2f0f965a8","js":[{"path":"cordova.js","remote":true},{"path":"app.js","update":"delta"},{"path":"applicationPreferences.js","platform":["android","chrome"]},{"path":"LocalNotification.js"},{"path":"sprintf-0.7-beta1.js"},{"path":"applicationPreferencesiPhone.js","platform":["ios"]}],"css":[{"path":"resources/css/app.css","update":"delta"}]}
