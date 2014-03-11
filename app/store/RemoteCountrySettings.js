@@ -19,7 +19,7 @@ Ext.define('opc.store.RemoteCountrySettings', {
 			}*/
 		
 		//Settings for Wordpress Backend
-			url: 'http://commstest.omf.org/opc/category/countrysettings/?json=1&custom_fields=defaultlanguage,email,passcode,telephone',
+			url: 'http://commstest.omf.org/opc/tag/countrysettings/?json=1&custom_fields=defaultlanguage,email,passcode,telephone',
 			timeout: 30000,
 			reader: {
 				type: 'json',

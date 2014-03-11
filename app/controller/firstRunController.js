@@ -150,10 +150,10 @@ Ext.define('opc.controller.firstRunController', {
 			remoteCountryStore.on({
 				load: function() {
 					remoteCountryStore.each(function(item){
-						console.log('Syncing country!');
+						console.log('Syncing country ' + item.get('alias') + '!');
 						//var logo = localCountryStore.add(item.copy());
 						//logo.setUrl();
-						//localCountryStore.add(item.copy());
+						localCountryStore.add(item.copy());
 						//item.setLogoUrl();
 					});
 					localCountryStore.sync();
@@ -168,6 +168,7 @@ Ext.define('opc.controller.firstRunController', {
 					} else {
 						console.log('Finished syncing country settings');
 						opc.app.globals.countrysettings = localCountryStore.findRecord('alias', country);
+						console.log('opc.app.globals.countrysettings: ' + opc.app.globals.countrysettings);
 						return successCB();
 					}
 
