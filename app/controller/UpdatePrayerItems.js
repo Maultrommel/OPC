@@ -366,7 +366,7 @@ Ext.define('opc.controller.UpdatePrayerItems', {
     doUpdate: function(updateSuccess,failure) {
     	var i = 0;
     	var remotePrayerStorage = Ext.getStore('remotePrayerStore');
-		remotePrayerStorage.setProxy({url: 'http://www.commstest.omf.org/opc/category/'+opc.app.globals.preferences.prayer_country+'/?json=1&custom_fields=date,worker&count=80'});
+		remotePrayerStorage.setProxy({url: 'http://www.commstest.omf.org/opc/tag/prayer_item_'+opc.app.globals.preferences.prayer_country+'/?json=1&custom_fields=date,worker&count=80'});
 		//remotePrayerStorage.setRemoteFilter(true);
 		//remotePrayerStorage.load();
 		
